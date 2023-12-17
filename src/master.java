@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class master {
 
-    public static void executarTeste(){
-        System.out.println("teste1");
-    }
 
     public static void main(String[] args) {
 
@@ -15,7 +12,6 @@ public class master {
         int n;
         double soma, media;
 
-        executarTeste();
         System.out.print("Quantos numeros voce vai digitar? ");
         n = sc.nextInt();
 
