@@ -1,3 +1,5 @@
+package Exercicio_soma_media;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -14,6 +16,8 @@ public class master {
 
         System.out.print("Quantos numeros voce vai digitar? ");
         n = sc.nextInt();
+
+
 
         double[] vetor = new double[n];
 
@@ -32,7 +36,7 @@ public class master {
         System.out.print("VALORES = ");
 
         for (int i=0; i<n; i++) {
-            System.out.printf("%.1f  ", vetor[i]);
+            System.out.printf("%.2f  ", vetor[i]);
         }
 
         System.out.printf("\nSOMA = %.2f\n", soma);
